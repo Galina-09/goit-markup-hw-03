@@ -13,36 +13,49 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!--modern-normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--css-->
     <link rel="stylesheet" href="./css/styles.css" />
 
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="accent-logo">Studio</span></a
-        >
-        <ul>
-          <li><a class="header-link" href="./index.html">Studio</a></li>
-          <li><a class="header-link" href="">Portfolio</a></li>
-          <li><a class="header-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul>
-          <li>
-            <a class="contacts-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <nav class="header-nav">
+            <a class="logo" href="./index.html"
+              >Web<span class="accent-logo">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="contacts-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <ul class="header-list">
+              <li><a class="header-link" href="./index.html">Studio</a></li>
+              <li><a class="header-link" href="">Portfolio</a></li>
+              <li><a class="header-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="ul-address">
+              <li>
+                <a class="contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
     <main>
       <!--hero section-->
@@ -52,7 +65,8 @@
       </section>
       <!--Benefits section-Benefits section-->
       <section class="benefits-section">
-        <h2 class="benefits-title">Benefits</h2>
+        <h2 class="visually-hidden">Benefits</h2>
+
         <ul>
           <li class="benefits-li">
             <h3 class="benefits-subtitle">Strategy</h3>
