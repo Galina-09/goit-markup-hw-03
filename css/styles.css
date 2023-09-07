@@ -40,6 +40,9 @@ img {
   height: auto;
 }
 
+ul {
+  display: flex;
+}
 /*header*/
 
 .header {
@@ -58,9 +61,13 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 24px 0 24px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -68,9 +75,9 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-nav,
-ul {
+.header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -82,6 +89,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo .accent-logo {
@@ -100,6 +108,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-link:hover,
