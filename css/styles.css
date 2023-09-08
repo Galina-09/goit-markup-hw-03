@@ -59,15 +59,6 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 0 24px;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .header-list {
   display: flex;
   gap: 40px;
@@ -188,15 +179,15 @@ ul {
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
+  margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  overflow: hidden;
 }
 
 .benefits-list {
