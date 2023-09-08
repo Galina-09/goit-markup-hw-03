@@ -297,7 +297,7 @@ ul {
 }
 
 .portfolio-li {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-card {
@@ -322,9 +322,11 @@ ul {
 /*footer*/
 .footer {
   background-color: var(--c-background-hero);
+  padding: 100px 0;
 }
 
 .footer-logo {
+  display: inline-block;
   color: var(--c-brand);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -333,6 +335,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 .footer-logo .accent-footer {
   color: var(--c-background-secondary);
@@ -346,4 +349,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--c-background-secondary);
+  max-width: 264px;
 }
