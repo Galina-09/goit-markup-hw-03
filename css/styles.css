@@ -148,6 +148,7 @@ ul {
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 30px;
 }
 
 .button-hero {
@@ -209,7 +210,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -322,7 +322,6 @@ ul {
 }
 
 .footer-container {
-  display: flex;
 }
 .footer-logo {
   display: inline-block;
